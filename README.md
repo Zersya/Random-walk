@@ -1,3 +1,3 @@
-red = Infected
-blue = Healthy
+red = Infected  
+blue = Healthy  
 green = Imune
