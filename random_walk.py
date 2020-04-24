@@ -106,7 +106,7 @@ if __name__ == "__main__":
     n_individu = 200
 
     ratio_infec = 5
-    prob_moving = 20
+    prob_moving = 200
     day_to_recover = 10
 
     history = []
@@ -154,10 +154,11 @@ if __name__ == "__main__":
     plt.title("Count of Infected to Virus each day")
     plt.savefig('infected_line_chart.png')
 
-
     fig, _ = plt.subplots()
     axes = plt.axes(xlim=(x_min, x_max), ylim=(x_min, x_max))
     colors = ['red', 'blue', 'green']
+    
+    axes.legend()
 
     individus = []
     x_anim = []
