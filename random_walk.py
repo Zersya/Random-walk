@@ -149,8 +149,8 @@ if __name__ == "__main__":
     plt.figure()
     plt.plot(x, y)
 
-    plt.xlabel("Count of infected")
-    plt.ylabel("Count of day")
+    plt.ylabel("Count of infected")
+    plt.xlabel("Count of day")
     plt.title("Count of Infected to Virus each day")
     plt.savefig('infected_line_chart.png')
 
