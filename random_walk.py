@@ -106,7 +106,7 @@ if __name__ == "__main__":
     n_individu = 200
 
     ratio_infec = 5
-    prob_moving = 200
+    prob_moving = 80
     day_to_recover = 10
 
     history = []
